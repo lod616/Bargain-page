@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: local("ProximaNova-Regular");
+  src:url('../fonts/ProximaNova/ProximaNova-Regular.ttf') format('truetype'),
+			url('../fonts/ProximaNova/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'ProximaNova-Black';
+	src: local("ProximaNova-Black");
+	src: url('../fonts/ProximaNova/ProximaNova-Black.eot');
+	src: url('../fonts/ProximaNova/ProximaNova-Black.ttf') format('truetype'),
+			 url('fonts/lazer.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/ProximaNova/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+

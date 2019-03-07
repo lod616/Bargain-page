@@ -1,0 +1,114 @@
+.directions{
+	background:
+		linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+		url('../images/content/work-bg.jpg') 0 0 no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20px 0 35px 0;
+	&-header{
+		margin-bottom: 40px;
+		color: white;
+		text-align: right;
+		//color: white;
+		& > * {
+			&:not(:last-child) {margin-bottom: 10px;}
+		}
+		&__title{
+			font-size: 25px;
+			text-transform: uppercase;
+			&-big{
+				font-size: 56px;
+				text-transform: uppercase;
+			}
+		}
+	}
+	&-body{
+		display: flex;
+	}
+}
+
+.directions-list{
+	&__item{
+		
+	}
+	&__sub-item{
+		margin-bottom: 5px;
+	}
+	&__link{
+		font-size: 20px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		display: inline-block;
+		color: white;
+		white-space: nowrap;
+		height: 30px;
+		padding: 4px 0;
+		background-color: transparent;
+		position: relative;
+		&:after{
+			content: '';
+			position: absolute;
+			display: inline-block; 
+			right: -38px;
+			top: 0;
+			border: 15px solid transparent;
+			border-left: 23px solid transparent;
+		}
+		&:hover{
+			background-color: #c69c6d;
+			&:after{
+				border-left-color: #c69c6d;
+			}
+		}
+	}
+	&--disc{
+		.directions-list__sub-item{
+			&:before{
+				content: "";  
+  			font-weight: bold; 
+  			display: inline-block; 
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				background-color: white;
+				margin-right: 5px;
+			}
+		}
+	}
+	&__sub-link{
+		color: white;
+		&:hover{
+			color: #6f42b7;
+		}
+	}
+}
+
+.directions-sign-up{
+	width: 100%;
+	max-width: 295px;
+	text-align: right;
+}
+
+.sign-up__btn{
+	display: inline-block;
+	height: 70px;
+	line-height: 70px;
+	font-size: 30px;
+	font-family: $bold-font;
+	color: white;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+	max-width: 280px;
+	background: linear-gradient(to left, #8963c3, #7b52bd, #693ab4);
+}
+
+.sign-up__info{
+	font-size: 17px;
+	color: white;
+	line-height: 18.5px;
+}

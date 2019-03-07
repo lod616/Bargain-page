@@ -1,0 +1,15 @@
+.contacts{
+	&-header{
+		background-color: #3a1f55;
+		padding: 25px 0;
+		&__title{
+			text-transform: uppercase;
+			color: white;
+			font-size: 56px;
+			font-weight: 400;
+		}
+	}
+	&-map{
+		height: 500px;
+	}
+}

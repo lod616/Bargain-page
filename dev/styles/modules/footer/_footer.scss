@@ -1,0 +1,33 @@
+.footer{
+	background-color: #3a1e56;
+	
+	&-body{
+		display: flex;
+		justify-content: space-between;
+		padding: 20px 0;
+		&__logo{
+			display: flex;
+			align-items: center;
+			&-text{
+				font-size: 30px;
+				text-transform: uppercase;
+				font-family: $bold-font;
+				color: #c69c6d;
+			}
+			& > * {
+				&:not(:last-child) {margin-right: 20px;}
+			}
+		}
+	}
+	&__callback{
+		margin-bottom: 10px;
+	}
+	&-mail{
+		text-align: right;
+		&__link{
+			display: block;
+			color: white;
+			font-size: 18px;
+		}
+	}
+}

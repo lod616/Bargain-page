@@ -1,0 +1,16 @@
+.popup-consultation
+	.hide-on-success
+		.popup-consultation__header
+			span.popup-consultation__header-title Получить консультацию
+			.popup-consultation__close
+				+icon('close', 'popup-consultation__close-icon')
+		.popup-consultation__body
+			form.form
+				.form-body
+					.form-group
+						label.form-group__label Контактный телефон
+						input(placeholder="+7(912)123-34-45" type="phone").input-field
+				.form-footer
+					input(type="submit" value="Получить консультацию").btn
+					span.form-footer__text Перезвоним в течении 10 минут
+	.show-on-success

@@ -1,0 +1,12 @@
+extends template/main
+
+block variables
+	- var title = 'Главная страница'
+
+block content
+	include modules/directions/directions
+	include modules/advantages/advantages
+	include modules/feedback/feedback
+	include modules/contacts/contacts
+	block script
+		script(src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&" type="text/javascript")
